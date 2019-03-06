@@ -1,4 +1,4 @@
-# Game Review for (ENYO Arcade)
+# Game Review for ENYO Arcade
 
 ## Details
 
