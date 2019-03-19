@@ -2,7 +2,7 @@
 
 * Game Publisher Savane Consulting
 * Game Rating E
-* [Game Title Website](https://robin-3ch208.itch.io/starship-alliance)
+* [https://robin-3ch208.itch.io/starship-alliance](https://robin-3ch208.itch.io/starship-alliance)
 
 **Question:** During your playtesting where the rules of the game understandable? If not, what was not clear.
 > _Answer:_ The rules are very simple. This is a shoot them up game that is endless.  The button scheme uses the normal WASD and mouse control system.  The control scheme differs depending on which ship you choose to use.  Other buttons to launch bombs or special moves are used with B or G.  The game tells you what those keys are for the various ships the first time you gain one of the bomb powerups. 
