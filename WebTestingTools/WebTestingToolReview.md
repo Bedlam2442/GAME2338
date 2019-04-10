@@ -32,7 +32,10 @@ Research 3 Web Testing tool products and answer questions for each.
 3) If it is an automated tool, does it work with web-based tools? What languages (Java, .NET)? 
 * Selenium requires the download of some server programs but is functional in web browsers. There recently were some issues with Chrome and Firefox browsers, but an alpha Selenium IDE version is in the works to address this. The program uses Java, csharp, python, ruby, php, perl, and javascript. 
 
-## Katalon https://www.katalon.com/
+## Katalon Studio https://www.katalon.com/
+## Company: Katalon
+
+### Features: Object Spy, Test data management and data-driven, Recording and test generation, Built-in Keywords, Reporting and Analytics, Integration with JIRA and qTest
 
 1) Does this tool do any test case storage?
 * The program includes what they call Advanced Recording capabilities that allow the user to edit the test case while recording. It contains advanced logging, debug data, screenshots, and videos. Katalon essentially combines spying, recording, and executing functions.
