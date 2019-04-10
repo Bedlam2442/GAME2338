@@ -5,6 +5,9 @@
 Research 3 Web Testing tool products and answer questions for each.
 
 ## WebLoad https://www.radview.com/
+## Company: Radview
+
+### Features: Test Creation, Correlation, Test Execution, Analytics, WebLOAD Dashboard, Server-side performance, Javascript, Mobile Load Testing, Technologies Supported. 
 
 1) Does this tool do any test case storage?
 * The program allows user to store their information on the WebLOAD Cloud as well as download their test cases to a personal computer.
