@@ -19,6 +19,9 @@ Research 3 Web Testing tool products and answer questions for each.
 * The program uses auto generated scrips so that people unfamiliar with coding can drag and drop to tailor the testing to their needs. Smart tools generate code for correlation, parameterization, and response validation.  The program uses Javascrip primarily. 
 
 ## Selenium https://www.seleniumhq.org/
+## Company: Selenium Project
+
+### Features: Open Source, Portable Web Testing Framework, Playback and Record, Cloud-based testing, Language/OS/Browser support, parallel test execution, integration with frameworks, WebDriver API, web driver doesn't require server installation, 
 
 1) Does this tool do any test case storage?
 * The program allows the user to record and playback tests.
