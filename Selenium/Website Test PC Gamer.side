@@ -1,0 +1,151 @@
+{
+  "id": "ab38b013-ed06-40bf-9549-897039ed46f9",
+  "version": "2.0",
+  "name": "Website Test PC Gamer",
+  "url": "https://www.pcgamer.com",
+  "tests": [{
+    "id": "f5868c38-cfd3-4ac3-bf38-1c02b3f06433",
+    "name": "Testing PC Gamer Search for Dwarf Fortress",
+    "commands": [{
+      "id": "81afa9f5-cbb6-4adb-a1f4-459c6151a7bd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c82f821-434e-4924-97ce-cf11014b82d9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "926x672",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "efe77189-4209-4a95-b217-f73b08287062",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Borderlands 3",
+      "targets": [
+        ["linkText=Borderlands 3", "linkText"],
+        ["css=.trending-item:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Borderlands 3')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.pcgamer.com/borderlands-3-pc-is-releasing-exclusively-on-the-epic-store-in-september/')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Borderlands 3')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de8bea81-22b4-442b-8282-d6eeadedcffd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.menu-item-none > a",
+      "targets": [
+        ["css=.menu-item-none > a", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.pcgamer.com/total-war-three-kingdoms/')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1626d1d-61a8-4b49-84fe-de3c2d665a01",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search:nth-child(2)",
+      "targets": [
+        ["css=.icon-search:nth-child(2)", "css:finder"],
+        ["xpath=//label[3]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cf884c9-ed70-465a-ba26-24b6d2f51183",
+      "comment": "",
+      "command": "click",
+      "target": "name=searchTerm",
+      "targets": [
+        ["name=searchTerm", "name"],
+        ["css=.search-input", "css:finder"],
+        ["xpath=//input[@name='searchTerm']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cef14323-7987-4e93-bc65-28422a06fc0b",
+      "comment": "",
+      "command": "type",
+      "target": "name=searchTerm",
+      "targets": [
+        ["name=searchTerm", "name"],
+        ["css=.search-input", "css:finder"],
+        ["xpath=//input[@name='searchTerm']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": "Dwarf Fortress"
+    }, {
+      "id": "ab5426ee-e32c-4876-9ae6-ae18f01c4c79",
+      "comment": "",
+      "command": "click",
+      "target": "css=.icon-search:nth-child(1)",
+      "targets": [
+        ["css=.icon-search:nth-child(1)", "css:finder"],
+        ["xpath=//button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ccd947d-39af-4208-b707-0bea6d8ef7f0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,23)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "20dba2d2-d5bf-48c1-8db5-2e9c88ab574c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b71f5af-60a9-4219-8d6e-d437ecd1afb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.result1 .article-name",
+      "targets": [
+        ["css=.result1 .article-name", "css:finder"],
+        ["xpath=//div[@id='content']/section/div[2]/div[2]/a/article/div[2]/header/h3", "xpath:idRelative"],
+        ["xpath=//header/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Dwarf Fortress is coming to Steam with graphics and mod support')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "255dfaf4-d270-4836-97e8-4b723cc534cd",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef114e3e-c8ba-4ee4-a74d-b3ca018717ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-large-play-button",
+      "targets": [
+        ["css=.ytp-large-play-button", "css:finder"],
+        ["xpath=//div[@id='player_uid_878965589_1']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "aaf09796-805c-4c9d-b5a9-0622ca2a0756",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f5868c38-cfd3-4ac3-bf38-1c02b3f06433"]
+  }],
+  "urls": ["https://www.pcgamer.com/"],
+  "plugins": []
+}
